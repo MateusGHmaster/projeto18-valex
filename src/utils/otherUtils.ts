@@ -228,6 +228,7 @@ async function checkBalance (balance, amount) {
 }
 
 export const utils = {
+
     checkIfRegisteredBusiness,
     checkIfBusinessLinkedToCardByType,
     checkForCard,
@@ -243,4 +244,5 @@ export const utils = {
     checkIfEmployeeCardTypeAlreadyExists,
     getCardBalance,
     checkBalance
+    
 }
